@@ -1,0 +1,133 @@
+   	/* base */
+
+   	*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    /*  
+    .space{
+        height: 30rem;
+        text-align: center;
+        font-family:Sofia;
+    }
+
+    .space img{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        margin: 40px;
+    }
+    */
+
+    /* footer start */
+
+    footer{
+        background-color: #3a3a3a;
+        text-align: center;
+        padding-bottom: 15px;
+        font-family: Roboto;
+    }
+
+    /* social media icons */
+
+    .sm-handle{
+        display: flex;
+        padding-top: 2rem;
+        justify-content: center;
+    }
+
+    .sm-button{
+        margin: 0px 10px 0px;
+        border: 1px solid #bababa;
+        border-radius: 100%;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        cursor: pointer;
+        background: linear-gradient(to right, #3a3a3a, #3a3a3a	);
+        transition: 3.3s all;
+
+    }
+
+    .sm-button:hover{
+        background: linear-gradient(to right, rgb(250, 134, 1), orangered	);
+    } 
+
+    #svg{
+        color: #fff;
+        font-size: 16px;
+    }
+
+    /* footer all links*/
+
+    .footer-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        letter-spacing: 1.5px;
+        word-spacing: 2px;
+    }
+
+    .menu-title{
+        margin-bottom: 15px;
+        font-family: Roboto;
+    }
+
+    .menu{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .menu-links ,.other-links{
+        display: block;
+        margin-bottom: 5px;
+        justify-items:auto;
+        text-align: center;
+        font-family: Roboto;
+        color: #d5d5d5;
+        cursor: pointer;
+    }
+
+    .menu-links:hover{
+        color: orangered;
+    }
+
+    .other-links:hover{
+        color: orangered;
+    }
+
+    /* copyright area */
+
+    .copyright{
+        font-size: 15px;
+        color: white;
+        letter-spacing: 1.5px;
+        word-spacing: 2px;
+        font-family: Roboto;
+    }
+
+    .copyright a{
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .icon{
+        color:#bababa;
+    }
+    /* screen change */
+
+    @media(max-width :700px){
+        .footer-links{
+        grid-template-columns: 1fr;
+    }
+
+    }
