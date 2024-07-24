@@ -10,21 +10,6 @@
         text-decoration: none;
     }
 
-    /*  
-    .space{
-        height: 30rem;
-        text-align: center;
-        font-family:Sofia;
-    }
-
-    .space img{
-        width: 10rem;
-        height: 10rem;
-        border-radius: 50%;
-        margin: 40px;
-    }
-    */
-
     /* footer start */
 
     footer{
@@ -46,8 +31,8 @@
         margin: 0px 10px 0px;
         border: 1px solid #bababa;
         border-radius: 100%;
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
         display: flex;
         align-items: center;
         justify-content:center;
