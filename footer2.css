@@ -1,4 +1,4 @@
-   	/* base */
+   	/* Main Properties */
 
    	*{
         margin: 0;
@@ -10,7 +10,7 @@
         text-decoration: none;
     }
 
-    /* footer start */
+    /* Footer Properties */
 
     footer{
         background-color: #3a3a3a;
@@ -35,7 +35,7 @@
         height: 2rem;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         cursor: pointer;
         background: linear-gradient(to right, #3a3a3a, #3a3a3a	);
         transition: 3.3s all;
@@ -51,7 +51,7 @@
         font-size: 16px;
     }
 
-    /* footer all links*/
+    /* Footer All Links Properties*/
 
     .footer-links{
         display: grid;
@@ -89,7 +89,7 @@
         color: orangered;
     }
 
-    /* copyright area */
+    /* Copyright Properties */
 
     .copyright{
         font-size: 15px;
@@ -114,5 +114,4 @@
         .footer-links{
         grid-template-columns: 1fr;
     }
-
     }
